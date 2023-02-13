@@ -44,12 +44,12 @@
     font-size: 16px;
     color: #005FAC;
     direction: rtl;
-    margin-left: 1020px;
-    width: 150px;
-    height: 40px;
+    margin-left: 1040px;
+    width: 130px;
+    height: 50px;
     border-radius: 5px;
     border: none;
-    padding: 10px 25px;
+    padding: 10px 20px;
 }
 
 /* section-one styles */
@@ -61,13 +61,144 @@
     margin-top: 130px;
     margin-left: 210px;
     margin-right: 220px;
+    margin-bottom: 130px;
 }
 
 .section-title {
     font-weight: 700;
     font-size: 40px;
 }
-.section-description{
+
+.section-description {
     font-size: 14px;
     margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.points {
+    margin-top: 7.4px;
+    Fill Color Style: Dark 02 Fill: Solid #444343
+}
+
+/* Section-two styles */
+
+.section-two-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.website-lists {
+    display: flex;
+    gap: 80px;
+    margin-top: 50px;
+    margin-left: 295px;
+    margin-right: 295px;
+}
+
+.contact {
+    background-image: url(/images/gradient1.png);
+    margin-top: 130px;
+    margin-left: 270px;
+    margin-right: 270px;
+    height: 200px;
+    
+}
+
+.advice {
+    padding: 40px 60px 0px;
+    padding-right: 300px;
+}
+.advice-title{
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.call-btn {
+    font-weight: 600;
+    font-size: 16px;
+    color: #005FAC;
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* Footer styles */
+
+.footer{
+    background-color: black;
+    width: 1600px;
+    height: 400px;
+    margin-top: 130px ;
+    color: white;
+}
+
+.future{
+    /* padding: 60px 100px ;
+    padding-right: 900px; */
+    margin-left: 100px;
+    border: 2px solid red;
+    border: none;
+    width: 300px;
+    height: 277px;
+    padding: 60px;
+}
+
+.footer-title{
+    font-size: 35px;
+    margin-bottom: 24px;
+    color: white;
+}
+.title-description{
+    font-size: 14px;
+    color: #ada6a6;
+    margin-bottom: 24px;
+}
+.footer-flex{
+    display: flex;
+    gap: 300px;
+    
+}
+
+.email{
+    margin-bottom: 16px;
+    background-color: black;
+    border: none;
+    color: #a09c9c;
+}
+.phone-number{
+    background-color: black;
+    border: none;
+    color: #a09c9c;
+}
+.website-icon{
+    display: flex;
+    gap: 17px;
+    margin-top: 32px;
+}
+.subscribe-title{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 31px;
+}
+.placeholder{
+    background-color: black;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    width: 180px;
+    height: 30px;
+}
+.subscribe-btn{
+    font-weight: 600;
+    font-size: 12px;
+    width: 130px;
+    height: 50px;
+    background: #005FAC;
+    color: wheat;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
 }
