@@ -88,7 +88,8 @@
 }
 
 .contact {
-    background-image: url(/images/gradient1.png);
+    /* background-image: url(/images/gradient1.png) ; */
+    background-image: linear-gradient(green, rgb(109, 96, 221));;
     margin-top: 130px;
     margin-left: 270px;
     margin-right: 270px;
@@ -103,7 +104,7 @@
 .advice-title{
     color: #FFFFFF;
     font-size: 30px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .call-btn {
