@@ -67,6 +67,13 @@
     margin-top: 24px;
     margin-bottom: 24px;
 }
+.symbol{
+    border: 1px solid red;
+    width: 16px;
+    height: 16px;
+    border: none;
+    text-decoration: none;
+}
 
 .points {
     margin-top: 7.4px;
