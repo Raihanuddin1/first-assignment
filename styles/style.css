@@ -9,7 +9,7 @@
 .header {
     width: 1600px;
     height: 808px;
-    background-image: url(/images/banner/banner3.png);
+    background-image: url("../images/banner/banner3.png");
 }
 
 .header-title {
